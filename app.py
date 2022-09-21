@@ -20,7 +20,7 @@ st.title(":cyclone: NFT Sales Dashboard")
 st.markdown("##")
 
 TotlaLocations =df.count()
-Average_AQI = df['AQI'].mean(axis=1)
+Average_AQI = df['AQI'].mean()
 
 
 left_co, right_co = st.columns(2)
