@@ -19,14 +19,14 @@ year = st.sidebar.multiselect(
 st.title(":cyclone: NFT Sales Dashboard")
 st.markdown("##")
 
-TotlaLocations =df.count()
+Locations =df.count()
 Average_AQI = df['AQI'].mean()
 
 
 left_co, right_co = st.columns(2)
 with left_co:
     st.subheader("Total Locations:")
-    st.subheader(f" {TotlaLocations:,}")
+    st.subheader(f"{Locations:,}")
 with right_co:
     st.subheader("Average_AQI")
     st.subheader(f"{Average_AQI:,}")
