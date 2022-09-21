@@ -30,3 +30,4 @@ with right_co:
     st.subheader("Average_AQI")
     st.subheader(f"{Average_AQI:,}")
 st.markdown("---")
+st.markdown(hide,unsafe_allow_html=True)
